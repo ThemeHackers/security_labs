@@ -47,5 +47,11 @@ If you want to start a lab
 sudo chmod +x ./.start.sh
 sudo ./.start.sh
 ```
-Warning: If you have enough resources, you can add more labs, otherwise keep the original labs, as running multiple docker compose is resource intensive.
+## ⚠️ Resource Usage Warning
+
+> **Note:** Running multiple labs simultaneously using `docker-compose` can be **resource intensive**.  
+>
+> - If your system has **sufficient resources** (e.g., CPU, RAM, and disk space), you may **add more labs** to expand your environment.
+> - Otherwise, it's recommended to **keep the default labs** to ensure stable performance.
+
 
