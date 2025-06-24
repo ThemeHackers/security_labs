@@ -54,4 +54,9 @@ sudo ./.start.sh
 > - If your system has **sufficient resources** (e.g., CPU, RAM, and disk space), you may **add more labs** to expand your environment.
 > - Otherwise, it's recommended to **keep the default labs** to ensure stable performance.
 
+## ⚠️ Troubleshooting
+
+> - If you encounter a problem running docker compose caused by the port being used, edit the labs file by going in and running nano docker-compose.yml to edit the port within the file.
+
+
 
