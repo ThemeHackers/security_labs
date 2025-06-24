@@ -37,4 +37,14 @@ Installation steps
 sudo chmod +x ./.install.sh
 sudo ./.install.sh
 ```
+If you want to check the running docker compose
+```bash
+sudo chmod +x ./.cklabs.sh
+sudo ./.cklabs.sh
+```
+If you want to start a lab
+```bash
+sudo chmod +x ./.start.sh
+sudo ./.start.sh
+```
 
