@@ -47,4 +47,5 @@ If you want to start a lab
 sudo chmod +x ./.start.sh
 sudo ./.start.sh
 ```
+Warning: If you have enough resources, you can add more labs, otherwise keep the original labs, as running multiple docker compose is resource intensive.
 
