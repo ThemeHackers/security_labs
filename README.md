@@ -57,6 +57,7 @@ sudo ./.start.sh
 ## ⚠️ Troubleshooting
 
 > - If you encounter a problem running docker compose caused by the port being used, edit the labs file by going in and running nano docker-compose.yml to edit the port within the file.
+> - After editing the file, run sudo ./.start.sh again.
 
 
 
