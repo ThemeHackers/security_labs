@@ -32,4 +32,9 @@ Make sure your system has the following installed:
 - ✅ Git  
 - ✅ Linux-based OS (tested on Ubuntu 22.04)  
 
+Installation steps
+```bash
+sudo chmod +x ./.install.sh
+sudo ./.install.sh
+```
 
