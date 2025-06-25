@@ -26,12 +26,12 @@ start_lab() {
     local lab_abs_path="$BASE_DIR/$lab_relpath"
 
     if [ -d "$lab_abs_path" ]; then
-        echo "🚀 Starting lab: $lab_abs_path"
+        echo "🚀 Stoping lab: $lab_abs_path"
         (cd "$lab_abs_path" && docker-compose down )
         if [ $? -eq 0 ]; then
-            echo "✅ Lab started successfully: $lab_abs_path"
+            echo "✅ Lab stoped successfully: $lab_abs_path"
         else
-            echo "⚠️ Failed to start lab: $lab_abs_path"
+            echo "⚠️ Failed to stop lab: $lab_abs_path"
         fi
     else
         echo "❌ Directory not found: $lab_abs_path"
